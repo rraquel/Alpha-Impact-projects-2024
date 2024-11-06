@@ -37,7 +37,7 @@ def create_donut_chart(value, label):
 
 # Main function to render the dashboard
 def main():
-    st.title("Tenant Analysis Dashboard")
+    st.title("Prototype Tenant Analysis Dashboard")
     st.markdown("<hr style='border: 1px solid #007bff;'>", unsafe_allow_html=True)
 
     # Dropdown menu for selecting the center

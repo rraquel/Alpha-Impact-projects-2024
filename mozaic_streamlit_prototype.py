@@ -65,7 +65,7 @@ def display_audit_data(data):
     st.write(f"Deadlines: {data['Follow-up Actions']['Deadlines']}")
 
 def main():
-    st.title("AI - powered Audit Insights")
+    st.title("Prototype AI - powered Audit Insights")
 
     # File uploader to simulate future extraction capability
     uploaded_file = st.file_uploader("Upload an Audit PDF", type="pdf")
